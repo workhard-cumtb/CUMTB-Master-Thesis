@@ -14,3 +14,10 @@ windows 8.1 64位
 
 
 模板格式依据来源于[矿大（北京）研究生院官网](http://yjs.cumtb.edu.cn/index.php?m=content&c=index&a=show&catid=89&id=271)
+
+
+查看本机字体
+```bash
+fc-list :lang=zh-cn > zh.txt
+fc-list :lang=en-us > zh.txt
+```
