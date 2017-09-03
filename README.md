@@ -19,5 +19,5 @@ windows 8.1 64位
 查看本机字体
 ```bash
 fc-list :lang=zh-cn > zh.txt
-fc-list :lang=en-us > zh.txt
+fc-list :lang=en-us > en.txt
 ```
