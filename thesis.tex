@@ -1,21 +1,21 @@
 % !TEX TS-program = xelatex
 % !TEX encoding = UTF-8
-% 编译顺序 xelatex + bibtex + xelatex  + xelatex 
+% 编译顺序 xelatex + bibtex + xelatex  + xelatex
 
-\documentclass[a4paper,11pt,twoside]{ctexart} 
+\documentclass[a4paper,11pt,twoside]{ctexart}
 \setmainfont{Times New Roman}  %% 设置英文字体
 \usepackage[left=3.0cm, right=3.0cm, top=3.0cm, bottom=3.0cm]{geometry} %% 版面设置
 \usepackage[backref,colorlinks,linkcolor=black,citecolor=black,
-pdfauthor={黄湘云},
-pdfkeywords={空间广义线性混合模型,马尔科夫链蒙特卡罗},
-pdfsubject={中国矿业大学（北京）硕士学位论文},
-pdftitle={空间广义线性混合效应模型及其应用}
-]{hyperref}   % 设置链接
+    pdfauthor={黄湘云},
+    pdfkeywords={空间广义线性混合模型,马尔科夫链蒙特卡罗},
+    pdfsubject={中国矿业大学（北京）硕士学位论文},
+    pdftitle={空间广义线性混合效应模型及其应用}
+    ]{hyperref}   % 设置链接
 
 \usepackage{lipsum}  %% 提供一些示列文本，有自己的正文内容后就注释掉
 
 %定义一般页面的页眉和页脚
-\usepackage{fancyhdr} 
+\usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrule}{\hrule width\headwidth \vspace{1.5pt}\hrule width\headwidth}
@@ -31,7 +31,7 @@ pdftitle={空间广义线性混合效应模型及其应用}
 % 每一章从\newpage开始
 
 % 不要将所有的内容都放在一个tex文件下
-% 推荐如下方式，将每个章节拆成独立的tex文件 
+% 推荐如下方式，将每个章节拆成独立的tex文件
 
 \input{chapters/00_template.tex}  % 封面到版权页
 \input{chapters/00_abstract.tex}  % 摘要
@@ -53,7 +53,7 @@ pdftitle={空间广义线性混合效应模型及其应用}
 
 \input{chapters/ref.tex}     % 参考文献
 \input{chapters/thanks.tex}  % 致谢
-\input{chapters/author.tex}  % 作者简介 
+\input{chapters/author.tex}  % 作者简介
 
 
 
